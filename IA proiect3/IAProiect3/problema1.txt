@@ -1,0 +1,6 @@
+(define (problem berarie)
+  (:domain berarie-domain)
+  (:objects a)
+  (:init   (testN a) (testCash a) (=(total-cost) 0))
+  (:goal  (TipBere a   ))
+  (:metric minimize(total-cost)))
